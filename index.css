@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    font-family: 'REM', sans-serif;
+}
+body{
+    background-color: #2bd5e8;
+}
+.container{
+    height: 500px;
+    width: 350px;
+    /* border: 1px solid; */
+    margin: 80px 0px 0px 500px;
+    border-radius: 20px;
+    background-color: white;
+}
+.container-item{
+    /* border: 1px solid; */
+    height: 150px;
+    width: 350px;
+    padding: 0px 0px 0px 30px;
+}
+h1{
+    height: 50px;
+    width: 350px;
+    /* border: 1px solid; */
+    text-align: center;
+}
+.email-box{
+    padding: 8px;
+    width: 280px;
+}
+.password-box{
+    padding: 8px;
+    width: 280px;
+}
+.line{
+    height: 3px;
+    width: 280px;
+    border: 1px solid;
+    margin: 0px 0px 0px 30px;
+}
+.list{
+    display: flex;
+    height: 150px;
+    width: 250px;
+    /* border: 1px solid; */
+    margin-left: 30px;
+}
+.check-box-con{
+    /* border: 1px solid; */
+    height: 150px;
+    width: 20px;
+}
+.check-box{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    /* border: 1px solid; */
+    background-color: black;
+    margin: 25px 0px;
+}
+.check-character{
+    height: 150px;
+    font-size: 15px;
+}
+.btn{
+    height: 45px;
+    width: 200px;
+    margin-left: 70px;
+    font-size: 20px;
+    background-color: rgba(251,12,86,255);
+    border-radius: 5px;
+    border: 0px solid;
+}
+.here{
+    display: flex;
+    margin-left: 45px;
+}
+.account{
+    font-weight: 1px;
+}
+.h{
+    color: rgba(251,12,86,255);
+    padding-left: 5px;
+}
